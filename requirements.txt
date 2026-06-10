@@ -1,0 +1,7 @@
+google-genai
+python-dotenv
+chromadb
+pypdf
+pandas
+openpyxl
+python-pptx

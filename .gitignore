@@ -1,0 +1,29 @@
+# Python virtual environment
+venv/
+
+# Environment variables (Private API Keys)
+.env
+
+# Local Vector Database (ChromaDB storage)
+chroma_db/
+
+# User Documents Folder (Prevent uploading private files)
+data/*
+!data/.gitkeep
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# IDE settings
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
